@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<string.h>
 
-void main()
+void main56()
 {
 	printf("%s\n","hello,world!");
 	system("pause");
