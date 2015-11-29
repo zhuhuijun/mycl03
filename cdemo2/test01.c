@@ -16,6 +16,7 @@ int mem_init(int **p)
 	*p=malloc(100);
 	return 0;
 }
+//ÊÍ·ÅÄÚ´æ¿Õ¼ä
 void freemem(int **p){
 	if(*p==NULL)
 	{
