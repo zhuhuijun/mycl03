@@ -54,7 +54,7 @@ int getKeyByValue(char *kayvaluebuf,char *keybuf,char *valuebuf){
 	return ret;
 }
 //////////////////////////////////////////////////////////////////////////主函数的调用
-int  main()
+int  mainoppp()
 {
 	int ret=0;
 	char buf[1024]={0};

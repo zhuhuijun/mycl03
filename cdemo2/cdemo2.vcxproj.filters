@@ -13,11 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\test">
+      <UniqueIdentifier>{8e8c2a88-e86c-436d-904c-0c580e0ef964}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="str.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="test02.c">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -36,11 +36,8 @@
     <ClCompile Include="demo13.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="demo14.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="demo15.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="test01.c">
+      <Filter>源文件\test</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

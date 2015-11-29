@@ -65,9 +65,7 @@
     <ClCompile Include="demo11.c" />
     <ClCompile Include="demo12.c" />
     <ClCompile Include="demo13.cpp" />
-    <ClCompile Include="demo14.cpp" />
-    <ClCompile Include="demo15.cpp" />
-    <ClCompile Include="str.c" />
+    <ClCompile Include="test01.c" />
     <ClCompile Include="test02.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

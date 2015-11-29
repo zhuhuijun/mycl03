@@ -1,45 +1,28 @@
-﻿生成启动时间为 11/25/2015 9:47:19 PM。
-     1>项目“D:\myeffort\ceffort\cdemo\cdemo2\cdemo2.vcxproj”在节点 2 上(rebuild 个目标)。
-     1>_PrepareForClean:
-         正在删除文件“Debug\cdemo2.lastbuildstate”。
-       InitializeBuildStatus:
+﻿生成启动时间为 11/29/2015 10:48:09 AM。
+     1>项目“E:\nodedemo\mycl03\cdemo2\cdemo2.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
          正在创建“Debug\cdemo2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt demo09.c demo10.c demo11.c demo12.c str.c test02.c
-         test02.c
-     1>d:\myeffort\ceffort\cdemo\cdemo2\test02.c(9): warning C4047: “=”:“char *”与“int”的间接级别不同
-     1>d:\myeffort\ceffort\cdemo\cdemo2\test02.c(10): warning C4047: “=”:“char *”与“int”的间接级别不同
-     1>d:\myeffort\ceffort\cdemo\cdemo2\test02.c(12): warning C4047: “=”:“char *”与“int”的间接级别不同
-     1>d:\myeffort\ceffort\cdemo\cdemo2\test02.c(14): warning C4047: “=”:“char *”与“char **”的间接级别不同
-         str.c
-     1>d:\myeffort\ceffort\cdemo\cdemo2\str.c(41): warning C4033: “main34”必须返回值
-         demo12.c
-     1>d:\myeffort\ceffort\cdemo\cdemo2\demo12.c(15): warning C4013: “isspace”未定义；假设外部返回 int
-     1>d:\myeffort\ceffort\cdemo\cdemo2\demo12.c(64): warning C4020: “getKeyByValue”: 实参太多
-         demo11.c
-         demo10.c
-         demo09.c
-     1>d:\myeffort\ceffort\cdemo\cdemo2\demo09.c(16): warning C4013: “isspace”未定义；假设外部返回 int
-         正在生成代码...
-     1>d:\myeffort\ceffort\cdemo\cdemo2\demo11.c(17): warning C4715: “inverse09”: 不是所有的控件路径都返回值
-     1>d:\myeffort\ceffort\cdemo\cdemo2\demo11.c(32): warning C4715: “inverse10”: 不是所有的控件路径都返回值
-     1>d:\myeffort\ceffort\cdemo\cdemo2\demo11.c(47): warning C4715: “inverse11”: 不是所有的控件路径都返回值
-     1>d:\myeffort\ceffort\cdemo\cdemo2\str.c(42): warning C4716: “main34”: 必须返回一个值
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt test01.c
+         test01.c
+         所有输出均为最新。
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\myeffort\ceffort\cdemo\Debug\cdemo2.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cdemo2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\myeffort\ceffort\cdemo\Debug\cdemo2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\myeffort\ceffort\cdemo\Debug\cdemo2.lib" /MACHINE:X86 Debug\demo09.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\nodedemo\mycl03\Debug\cdemo2.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cdemo2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\nodedemo\mycl03\Debug\cdemo2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\nodedemo\mycl03\Debug\cdemo2.lib" /MACHINE:X86 Debug\demo09.obj
          Debug\demo10.obj
          Debug\demo11.obj
          Debug\demo12.obj
-         Debug\str.obj
+         Debug\demo13.obj
+         Debug\test01.obj
          Debug\test02.obj
-         cdemo2.vcxproj -> D:\myeffort\ceffort\cdemo\Debug\cdemo2.exe
+         LINK : 没有找到 E:\nodedemo\mycl03\Debug\cdemo2.exe 或上一个增量链接没有生成它；正在执行完全链接
+         cdemo2.vcxproj -> E:\nodedemo\mycl03\Debug\cdemo2.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\myeffort\ceffort\cdemo\Debug\cdemo2.exe;#1" /manifest Debug\cdemo2.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\nodedemo\mycl03\Debug\cdemo2.exe;#1" /manifest Debug\cdemo2.exe.intermediate.manifest
        FinalizeBuildStatus:
          正在删除文件“Debug\cdemo2.unsuccessfulbuild”。
          正在对“Debug\cdemo2.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“D:\myeffort\ceffort\cdemo\cdemo2\cdemo2.vcxproj”(rebuild 个目标)的操作。
+     1>已完成生成项目“E:\nodedemo\mycl03\cdemo2\cdemo2.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.05
+已用时间 00:00:00.49
