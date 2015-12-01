@@ -67,6 +67,11 @@
     <ClCompile Include="demo13.cpp" />
     <ClCompile Include="test01.c" />
     <ClCompile Include="test02.c" />
+    <ClCompile Include="二级指针\demo14.c" />
+    <ClCompile Include="二级指针\demo15.c" />
+    <ClCompile Include="二级指针\demo16.c" />
+    <ClCompile Include="二级指针\mydemo.cpp" />
+    <ClCompile Include="二级指针\mydemo2.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

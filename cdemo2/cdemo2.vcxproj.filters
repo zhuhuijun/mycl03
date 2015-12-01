@@ -39,5 +39,20 @@
     <ClCompile Include="test01.c">
       <Filter>源文件\test</Filter>
     </ClCompile>
+    <ClCompile Include="二级指针\mydemo2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二级指针\demo14.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二级指针\mydemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二级指针\demo15.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二级指针\demo16.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -26,7 +26,7 @@ void freemem(int **p){
 	*p=NULL;
 }
 //////////////////////////////////////////////////////////////////////////
-void main()
+void maicccccn()
 {
 	int tmp=0;
 	int *buf;
