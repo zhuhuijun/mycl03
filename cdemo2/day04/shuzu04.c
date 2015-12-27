@@ -3,24 +3,21 @@
 #include<stdio.h>
 #include<string.h>
 //////////////////////////////////////////////////////////////////////////
-//定义数组指针变量的第三种写法
-void mainmkl()
+//定义数组的另外的写法不是通过类型定义来实现的
+void main()
 {
-	typedef int (*PArrayType)[5];//定义数组指针类型
-	PArrayType pArrayType;//变量//告诉编译器给我分配一个指针变量
+	int (*pMyArr)[5];//直接定义一个指向数组的  数组指针变量   
 	int c[5];
 	int i=0;
-	pArrayType=&c;
+	pMyArr=&c;
 	for (i=0;i<5;i++)
 	{
-		//c[i]=i+1;
-		(*pArrayType)[i]=i+1;
+		(*pMyArr)[i]=i+1;
 	}
 	for (i=0;i<5;i++)
 	{
-		printf("%d\n",(*pArrayType)[i]);	
+		printf("%d\n",(*pMyArr)[i]);
 	}
-
 	printf("%s\n","hello,world!");
 	system("pause");
 
