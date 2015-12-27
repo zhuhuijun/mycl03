@@ -16,6 +16,9 @@ void main()
 	printf("%d\n",c);
 
 
+	
+	
+	
 	printf("%d\n",&c);
 	printf("%s\n","hello,world!");
 	system("pause");
