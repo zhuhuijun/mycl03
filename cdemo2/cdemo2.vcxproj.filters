@@ -75,5 +75,8 @@
     <ClCompile Include="day04\shuzu02.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="day04\shuzu03.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

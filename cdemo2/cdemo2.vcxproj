@@ -64,6 +64,7 @@
     <ClCompile Include="day04\hello03.c" />
     <ClCompile Include="day04\shuzu01.c" />
     <ClCompile Include="day04\shuzu02.c" />
+    <ClCompile Include="day04\shuzu03.c" />
     <ClCompile Include="demo09.c" />
     <ClCompile Include="demo10.c" />
     <ClCompile Include="demo11.c" />
