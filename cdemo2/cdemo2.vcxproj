@@ -60,6 +60,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="day04\hello02.c" />
+    <ClCompile Include="day04\hello03.c" />
+    <ClCompile Include="day04\shuzu01.c" />
     <ClCompile Include="demo09.c" />
     <ClCompile Include="demo10.c" />
     <ClCompile Include="demo11.c" />
@@ -70,6 +73,9 @@
     <ClCompile Include="二级指针\demo14.c" />
     <ClCompile Include="二级指针\demo15.c" />
     <ClCompile Include="二级指针\demo16.c" />
+    <ClCompile Include="二级指针\demo17.c" />
+    <ClCompile Include="二级指针\demo18.c" />
+    <ClCompile Include="二级指针\demo20.c" />
     <ClCompile Include="二级指针\mydemo.cpp" />
     <ClCompile Include="二级指针\mydemo2.c" />
   </ItemGroup>

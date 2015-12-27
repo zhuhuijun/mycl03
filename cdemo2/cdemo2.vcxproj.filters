@@ -54,5 +54,23 @@
     <ClCompile Include="二级指针\demo16.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="二级指针\demo17.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二级指针\demo18.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二级指针\demo20.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="day04\hello02.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="day04\hello03.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="day04\shuzu01.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
