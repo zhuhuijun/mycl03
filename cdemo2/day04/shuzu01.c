@@ -14,6 +14,8 @@ void main()
 	//&c是整个数组的地址//&c+1   100*4 400
 	//数组首元素的地址和数组的地址值相等
 	printf("%d\n",c);
+
+
 	printf("%d\n",&c);
 	printf("%s\n","hello,world!");
 	system("pause");
