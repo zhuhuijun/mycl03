@@ -67,6 +67,9 @@ void main()
 	printf("333333333333333333333\n");
 	printArr003(a);
 	printf("%s\n","hello,world!");
+
 	system("pause");
+
+
 
 }
