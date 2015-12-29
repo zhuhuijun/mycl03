@@ -46,7 +46,7 @@ void printArr003(int (*b)[5])
 
 }
 //////////////////////////////////////////////////////////////////////////
-void main()
+void mainoooo6()
 {
 	//a[i][j]===>*(*(a+i)+j)
 	int a[3][5];
@@ -67,9 +67,5 @@ void main()
 	printf("333333333333333333333\n");
 	printArr003(a);
 	printf("%s\n","hello,world!");
-
 	system("pause");
-
-
-
 }
