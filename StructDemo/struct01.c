@@ -27,12 +27,28 @@ typedef struct Teacher{
 	 int age;
 	 int id;
  }  s3,s4;
+ //第二种初始化的方法
+ struct Student2{
+	 char name[64];
+	 int age;
+	 int id;
+ }  s5={"linqq",34,01};
 void main()
 {
 	//struct Teacher t1;//告诉编译器分配内存
 	Teacher t1;
 	//初始化变量的方法
 	Teacher t2={"zhuhj",23,23};
+	t1.age=45;
+	strcpy(t1.name,"linqqqq");//t1.中的.是寻址操作
+	//计算name相当于t1的偏移量，没有操作内存地址
+	//通过指针的方式操作内存空间
+	{
+		Teacher *p=NULL;
+		p=&t2;
+		printf("p=>age:%d\n",p->age);
+	}
+	printf("t1.name:%s\n",t1.name);
 	printf("%s\n","hello,world!");
 	system("pause");
 
