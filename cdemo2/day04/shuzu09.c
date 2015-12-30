@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<string.h>
 
-void mainbbbbbbbbbbbbb()
+void main()
 {
 	int i=0;
 	//ึธี๋สýื้
