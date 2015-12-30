@@ -31,6 +31,8 @@ void main()
 {
 	//struct Teacher t1;//告诉编译器分配内存
 	Teacher t1;
+	//初始化变量的方法
+	Teacher t2={"zhuhj",23,23};
 	printf("%s\n","hello,world!");
 	system("pause");
 
