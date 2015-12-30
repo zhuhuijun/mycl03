@@ -33,10 +33,11 @@ typedef struct Teacher{
 	 int age;
 	 int id;
  }  s5={"linqq",34,01};
-void main()
+ void main01()
 {
 	//struct Teacher t1;//告诉编译器分配内存
 	Teacher t1;
+	Teacher t3;
 	//初始化变量的方法
 	Teacher t2={"zhuhj",23,23};
 	t1.age=45;
@@ -46,7 +47,11 @@ void main()
 	{
 		Teacher *p=NULL;
 		p=&t2;
-		printf("p=>age:%d\n",p->age);
+		printf("p=>age:%d\n",p->age);//->也是寻址计算age相当于p的偏移量，在cpu中计算
+	}
+	t3=t2;//=操作是编译器支持的
+	{
+		printf("t3.age:%d\n",t3.age);
 	}
 	printf("t1.name:%s\n",t1.name);
 	printf("%s\n","hello,world!");

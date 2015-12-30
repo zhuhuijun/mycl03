@@ -18,5 +18,11 @@
     <ClCompile Include="struct01.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="struct02.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="struct03.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
