@@ -14,7 +14,25 @@ void printArr(Teacher *arr,int num)
 		printf("age:%d\n",arr[i].age);
 	}
 }
-void main()
+
+void sortArr(Teacher *arr,int num)
+{
+	int i=0;
+	int j=0;
+	Teacher tmp;
+	for (i=0;i<num;i++)
+	{
+		for (j=i+1;j<num;j++)
+		{
+			if(arr[i].age>arr[j].age){
+				tmp=arr[i];
+				arr[i]=arr[j];
+				arr[j]=tmp;
+			}
+		}
+	}
+}
+void main03()
 {
 	Teacher Array[3];
 	int i=0;
@@ -26,6 +44,9 @@ void main()
 	for(i=0;i<num;i++){
 		printf("age:%d\n",Array[i].age);
 	}
+	printf("print===============\n");
+	printArr(Array,num);//数组首元素代表地址
+	sortArr(&Array,num);
 	printf("print===============\n");
 	printArr(Array,num);//数组首元素代表地址
 	printf("%s\n","hello,world!");

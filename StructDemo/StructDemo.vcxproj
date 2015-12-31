@@ -77,6 +77,7 @@
     <ClCompile Include="struct01.c" />
     <ClCompile Include="struct02.c" />
     <ClCompile Include="struct03.c" />
+    <ClCompile Include="struct04.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
