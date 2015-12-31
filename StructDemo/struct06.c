@@ -69,7 +69,7 @@ void FreeTeacher06(Teacher * p)
 	}
 
 }
-void main()
+void main06()
 {
 	int i=0;
 	int num=3;
