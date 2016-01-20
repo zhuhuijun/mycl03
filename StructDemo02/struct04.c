@@ -20,8 +20,8 @@ void main()
 	p1=&t1;
 	p1-1;//编译通过//运行通过//cpu中运行的没有操作内存
 	{
-		int off=(int)&(p1->age);//结构体中元素的相对偏移量
-		int offsize=(int)&(((AdvTeacher *)0)->age);
+		int off=(int)&(p1->age);//结构体中元素的相对偏移量//求得真实的地址
+		int offsize=(int)&(((AdvTeacher *)0)->age);//求得偏移量的地址
 		printf("%d \n",off);//相当于大的结构体的偏移量是64
 		printf("%d \n",offsize);
 	}
